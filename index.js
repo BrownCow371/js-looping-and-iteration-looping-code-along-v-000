@@ -1,6 +1,6 @@
 // Code your solutions in this file
-function printBadges(array) {
+function printBadges(myArray) {
   for(let i = 0, i < array.length, i++) {
-    console.log(`Welcome ${array[i]}! You are employee #${i+1}.`)
+    console.log(`Welcome ${amyArray[i]}! You are employee #${i+1}.`)
   }
 }
