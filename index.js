@@ -13,7 +13,7 @@ function coinFlip() {
 function tailsNeverFails() {
   let counter = 0
   while (coinFlip() === "Tails") {
-    ++counter
+    ++counter;
     }
-    `You got ${counter} tails in a row!`
+    return `You got ${counter} tails in a row!`;
 }
